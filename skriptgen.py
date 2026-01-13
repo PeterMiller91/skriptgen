@@ -23,7 +23,7 @@ except Exception:
 # ============================
 APP_TITLE = "ReelScripter Pro (MVP)"
 DB_PATH = os.getenv("APP_DB_PATH", "reelscripter.db")
-OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4.1-mini")  # change if you want
+OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5.2")  # change if you want
 MAX_SUBTOPICS = 10
 MAX_IDEAS = 12
 
@@ -669,3 +669,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
